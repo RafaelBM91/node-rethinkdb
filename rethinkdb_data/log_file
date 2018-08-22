@@ -1,0 +1,104 @@
+2018-07-11T10:30:56.004781616 0.179854s notice: Recursively removing directory /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/tmp
+2018-07-11T10:30:56.041522607 0.216593s notice: Initializing directory /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data
+2018-07-11T10:30:56.041802769 0.216873s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data' did not already exist or is empty.)
+2018-07-11T10:30:56.041986910 0.217057s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-07-11T10:30:56.049215705 0.224296s notice: Running on Linux 4.13.0-45-generic x86_64
+2018-07-11T10:30:56.049440991 0.224511s notice: Loading data from directory /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data
+2018-07-11T10:30:56.471002446 0.646073s info: Automatically using cache size of 4743 MB
+2018-07-11T10:30:56.476154167 0.651225s notice: Listening for intracluster connections on port 29015
+2018-07-11T10:30:56.539517585 0.714588s notice: Listening for client driver connections on port 28015
+2018-07-11T10:30:56.540137023 0.715207s notice: Listening for administrative HTTP connections on port 8080
+2018-07-11T10:30:56.540142523 0.715212s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-11T10:30:56.540154954 0.715225s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-11T10:30:56.540157016 0.715227s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-11T10:30:56.540194648 0.715264s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-07-11T10:30:56.540216659 0.715286s notice: Server ready, "rafael_Inspiron_7460_cv0" 7ffaa1f2-4847-4e40-ac9a-0009b140dbb4
+2018-07-11T10:43:42.177478800 766.352549s info: Table 9cf90a26-6aef-4b85-832e-3027793ea999: Starting a new Raft election for term 1.
+2018-07-11T10:43:42.177905064 766.352975s info: Table 9cf90a26-6aef-4b85-832e-3027793ea999: Added replica on this server.
+2018-07-11T10:43:42.227038976 766.402109s info: Table 9cf90a26-6aef-4b85-832e-3027793ea999: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T10:55:57.280923172 1501.455994s info: Table ca560fb4-fcd6-4fe4-a09d-5282247e75b2: Starting a new Raft election for term 1.
+2018-07-11T10:55:57.282297845 1501.457368s info: Table ca560fb4-fcd6-4fe4-a09d-5282247e75b2: Added replica on this server.
+2018-07-11T10:55:57.330465321 1501.505536s info: Table ca560fb4-fcd6-4fe4-a09d-5282247e75b2: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T11:08:43.431501426 2267.606572s info: Table 3a521d38-9192-4e9a-9c98-9023d03d9cd8: Starting a new Raft election for term 1.
+2018-07-11T11:08:43.432987363 2267.608058s info: Table 3a521d38-9192-4e9a-9c98-9023d03d9cd8: Added replica on this server.
+2018-07-11T11:08:43.481472506 2267.656543s info: Table 3a521d38-9192-4e9a-9c98-9023d03d9cd8: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T11:21:31.559828320 3035.734898s notice: Removing file /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/3a521d38-9192-4e9a-9c98-9023d03d9cd8
+2018-07-11T11:21:31.559835195 3035.734904s info: Table 3a521d38-9192-4e9a-9c98-9023d03d9cd8: Deleted the table.
+2018-07-11T11:21:32.789140380 3036.964211s info: Table a61d960c-6438-45ad-a491-606b4ee40070: Starting a new Raft election for term 1.
+2018-07-11T11:21:32.789785130 3036.964856s info: Table a61d960c-6438-45ad-a491-606b4ee40070: Added replica on this server.
+2018-07-11T11:21:32.838704139 3037.013775s info: Table a61d960c-6438-45ad-a491-606b4ee40070: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T11:22:49.022505403 3113.197575s notice: Removing file /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/a61d960c-6438-45ad-a491-606b4ee40070
+2018-07-11T11:22:49.022511402 3113.197581s info: Table a61d960c-6438-45ad-a491-606b4ee40070: Deleted the table.
+2018-07-11T11:22:50.397196812 3114.572267s info: Table 0049f54e-2db5-43fd-888d-bf89113f5655: Starting a new Raft election for term 1.
+2018-07-11T11:22:50.397812650 3114.572883s info: Table 0049f54e-2db5-43fd-888d-bf89113f5655: Added replica on this server.
+2018-07-11T11:22:50.457788736 3114.632859s info: Table 0049f54e-2db5-43fd-888d-bf89113f5655: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T11:23:40.717341369 3164.892416s notice: Removing file /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/0049f54e-2db5-43fd-888d-bf89113f5655
+2018-07-11T11:23:40.717368079 3164.892437s info: Table 0049f54e-2db5-43fd-888d-bf89113f5655: Deleted the table.
+2018-07-11T11:23:41.403778006 3165.578849s info: Table b3f00f89-c0d1-4021-8cd3-76674f0b7373: Starting a new Raft election for term 1.
+2018-07-11T11:23:41.404500426 3165.579571s info: Table b3f00f89-c0d1-4021-8cd3-76674f0b7373: Added replica on this server.
+2018-07-11T11:23:42.170424325 3166.345494s info: Table b3f00f89-c0d1-4021-8cd3-76674f0b7373: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T11:23:46.669133785 3170.844203s notice: Removing file /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/b3f00f89-c0d1-4021-8cd3-76674f0b7373
+2018-07-11T11:23:46.669140010 3170.844209s info: Table b3f00f89-c0d1-4021-8cd3-76674f0b7373: Deleted the table.
+2018-07-11T11:23:47.531773800 3171.706844s info: Table 22e52582-c292-4b92-9c51-112f1126f788: Starting a new Raft election for term 1.
+2018-07-11T11:23:47.532321212 3171.707391s info: Table 22e52582-c292-4b92-9c51-112f1126f788: Added replica on this server.
+2018-07-11T11:23:47.582321732 3171.757392s info: Table 22e52582-c292-4b92-9c51-112f1126f788: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T11:23:50.463747593 3174.638817s notice: Removing file /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/22e52582-c292-4b92-9c51-112f1126f788
+2018-07-11T11:23:50.463754295 3174.638824s info: Table 22e52582-c292-4b92-9c51-112f1126f788: Deleted the table.
+2018-07-11T11:23:51.461711100 3175.636782s info: Table c1babde0-b6bb-4652-9d89-c009a8bafcd5: Starting a new Raft election for term 1.
+2018-07-11T11:23:51.462355313 3175.637426s info: Table c1babde0-b6bb-4652-9d89-c009a8bafcd5: Added replica on this server.
+2018-07-11T11:23:51.522774945 3175.697846s info: Table c1babde0-b6bb-4652-9d89-c009a8bafcd5: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T11:23:53.660730998 3177.835801s notice: Removing file /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/c1babde0-b6bb-4652-9d89-c009a8bafcd5
+2018-07-11T11:23:53.660737135 3177.835806s info: Table c1babde0-b6bb-4652-9d89-c009a8bafcd5: Deleted the table.
+2018-07-11T11:23:55.492024458 3179.667095s info: Table 6aed04d0-2aff-4ee8-849b-9d946f592b37: Starting a new Raft election for term 1.
+2018-07-11T11:23:55.492753714 3179.667824s info: Table 6aed04d0-2aff-4ee8-849b-9d946f592b37: Added replica on this server.
+2018-07-11T11:23:55.542555534 3179.717627s info: Table 6aed04d0-2aff-4ee8-849b-9d946f592b37: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T11:24:01.321131197 3185.496201s notice: Removing file /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/6aed04d0-2aff-4ee8-849b-9d946f592b37
+2018-07-11T11:24:01.321137348 3185.496207s info: Table 6aed04d0-2aff-4ee8-849b-9d946f592b37: Deleted the table.
+2018-07-11T11:24:01.839741665 3186.014812s info: Table 8aa0f1f8-c774-45c6-ae55-845c4bc1e062: Starting a new Raft election for term 1.
+2018-07-11T11:24:01.840397663 3186.015468s info: Table 8aa0f1f8-c774-45c6-ae55-845c4bc1e062: Added replica on this server.
+2018-07-11T11:24:01.889190236 3186.064261s info: Table 8aa0f1f8-c774-45c6-ae55-845c4bc1e062: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T11:32:56.113611408 3720.288681s notice: Removing file /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/8aa0f1f8-c774-45c6-ae55-845c4bc1e062
+2018-07-11T11:32:56.113618146 3720.288687s info: Table 8aa0f1f8-c774-45c6-ae55-845c4bc1e062: Deleted the table.
+2018-07-11T11:32:56.816063008 3720.991133s info: Table 3a3b18a0-65e4-4d37-b3da-7e66151f523d: Starting a new Raft election for term 1.
+2018-07-11T11:32:56.816444082 3720.991514s info: Table 3a3b18a0-65e4-4d37-b3da-7e66151f523d: Added replica on this server.
+2018-07-11T11:32:56.877826146 3721.052897s info: Table 3a3b18a0-65e4-4d37-b3da-7e66151f523d: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T11:33:15.985952973 3740.161023s notice: Removing file /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/3a3b18a0-65e4-4d37-b3da-7e66151f523d
+2018-07-11T11:33:15.985958915 3740.161028s info: Table 3a3b18a0-65e4-4d37-b3da-7e66151f523d: Deleted the table.
+2018-07-11T11:33:17.250326814 3741.425397s info: Table 78d6b195-b9d2-4b63-9ceb-54d80302205f: Starting a new Raft election for term 1.
+2018-07-11T11:33:17.250867556 3741.425938s info: Table 78d6b195-b9d2-4b63-9ceb-54d80302205f: Added replica on this server.
+2018-07-11T11:33:17.305987545 3741.481058s info: Table 78d6b195-b9d2-4b63-9ceb-54d80302205f: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T11:39:15.203534749 4099.378604s notice: Removing file /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/78d6b195-b9d2-4b63-9ceb-54d80302205f
+2018-07-11T11:39:15.203544590 4099.378614s info: Table 78d6b195-b9d2-4b63-9ceb-54d80302205f: Deleted the table.
+2018-07-11T11:48:02.643784593 4626.818855s info: Table 304a2c93-686e-408c-b43d-9c434d258fb9: Starting a new Raft election for term 1.
+2018-07-11T11:48:02.644265379 4626.819335s info: Table 304a2c93-686e-408c-b43d-9c434d258fb9: Added replica on this server.
+2018-07-11T11:48:02.677425570 4626.852496s info: Table 4f64a226-5a55-4486-847b-f0ea07a7c20c: Starting a new Raft election for term 1.
+2018-07-11T11:48:02.679129918 4626.854201s info: Table 4f64a226-5a55-4486-847b-f0ea07a7c20c: Added replica on this server.
+2018-07-11T11:48:02.761266135 4626.936337s info: Table 304a2c93-686e-408c-b43d-9c434d258fb9: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T11:48:02.811127675 4626.986198s info: Table 4f64a226-5a55-4486-847b-f0ea07a7c20c: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T11:49:09.026692548 4693.201762s notice: Removing file /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/304a2c93-686e-408c-b43d-9c434d258fb9
+2018-07-11T11:49:09.026700592 4693.201770s info: Table 304a2c93-686e-408c-b43d-9c434d258fb9: Deleted the table.
+2018-07-11T11:49:09.026742499 4693.201812s notice: Removing file /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/4f64a226-5a55-4486-847b-f0ea07a7c20c
+2018-07-11T11:49:09.026744642 4693.201814s info: Table 4f64a226-5a55-4486-847b-f0ea07a7c20c: Deleted the table.
+2018-07-11T11:49:10.144883293 4694.319954s info: Table d0c063c8-793f-4bca-8d88-69295143042c: Starting a new Raft election for term 1.
+2018-07-11T11:49:10.145261483 4694.320331s info: Table d0c063c8-793f-4bca-8d88-69295143042c: Added replica on this server.
+2018-07-11T11:49:10.178723459 4694.353794s info: Table fc05c1b9-92d3-4609-89dc-31d26d0e9fc9: Starting a new Raft election for term 1.
+2018-07-11T11:49:10.179127325 4694.354198s info: Table fc05c1b9-92d3-4609-89dc-31d26d0e9fc9: Added replica on this server.
+2018-07-11T11:49:10.229061081 4694.404132s info: Table d0c063c8-793f-4bca-8d88-69295143042c: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T11:49:10.229264084 4694.404334s info: Table fc05c1b9-92d3-4609-89dc-31d26d0e9fc9: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T12:00:25.479107385 5369.654177s notice: Removing file /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/fc05c1b9-92d3-4609-89dc-31d26d0e9fc9
+2018-07-11T12:00:25.479114849 5369.654184s info: Table fc05c1b9-92d3-4609-89dc-31d26d0e9fc9: Deleted the table.
+2018-07-11T12:00:25.479570804 5369.654640s notice: Removing file /home/rafael/Escritorio/TEST/node-rethinkDB/rethinkdb_data/d0c063c8-793f-4bca-8d88-69295143042c
+2018-07-11T12:00:25.479573034 5369.654642s info: Table d0c063c8-793f-4bca-8d88-69295143042c: Deleted the table.
+2018-07-11T12:00:27.733108999 5371.908180s info: Table 39b51f36-ba2d-4d12-8ae4-e3402fe335d9: Starting a new Raft election for term 1.
+2018-07-11T12:00:27.733702359 5371.908773s info: Table 39b51f36-ba2d-4d12-8ae4-e3402fe335d9: Added replica on this server.
+2018-07-11T12:00:27.783347831 5371.958419s info: Table e88f08bf-7163-40a2-82b3-4d27370d55d3: Starting a new Raft election for term 1.
+2018-07-11T12:00:27.783761925 5371.958832s info: Table e88f08bf-7163-40a2-82b3-4d27370d55d3: Added replica on this server.
+2018-07-11T12:00:27.844885116 5372.019956s info: Table 39b51f36-ba2d-4d12-8ae4-e3402fe335d9: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T12:00:27.845120074 5372.020190s info: Table e88f08bf-7163-40a2-82b3-4d27370d55d3: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-11T15:59:30.283993362 19714.459064s notice: Someone asked for the nonwhitelisted file "/webpack-dev-server".  If this should be accessible, add it to the static web assets.
+2018-07-11T16:20:59.406672987 21003.581743s notice: Someone asked for the nonwhitelisted file "/webpack-dev-server/index.html".  If this should be accessible, add it to the static web assets.
+2018-07-11T17:45:49.948298174 26094.123369s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-11T17:45:49.948606384 26094.123677s notice: Shutting down client connections...
+2018-07-11T17:45:49.959271112 26094.134343s notice: All client connections closed.
+2018-07-11T17:45:49.959314415 26094.134384s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-11T17:45:50.003880860 26094.178952s notice: Storage engine shut down.
